@@ -1,3 +1,92 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.encabezado img {
+  width: 100%;
+  padding: 0;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.logo,
+img {
+  display: flex;
+  /* height: 60px;*/
+  justify-content: center;
+}
+
+ul,
+.principal-ul {
+  display: flex;
+  margin-left: 200px;
+  margin-right: 200px;
+  list-style: none;
+  font-family: "Lato", sans-serif;
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+li,
+.principal-li {
+  border: none;
+  margin-left: 50px;
+}
+
+.principal-li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.divisor img {
+  position: absolute;
+  width: 100%;
+  padding: 0;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+.navegacion-ul {
+  font-size: 24px;
+  list-style: none;
+  margin: 0;
+
+  color: white;
+}
+
+.navegacion-li {
+  border: none;
+  position: relative;
+  padding-top: -90px;
+  margin-left: 24px;
+}
+
+.navegacion-li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bolder;
+}
+
+.title {
+  margin: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 24px;
+}
+
+.img-main img {
+  width: 100%;
+  height: auto;
+}
+
+/*styles foot*/
+
 .Container-foot {
   display: flex;
   background-color: #353a3d;
@@ -58,89 +147,4 @@ a:link {
 .networks {
   display: flex;
   justify-content: space-between;
-}
-body {
-  width: 100%;
-  height: 100vh;
-}
-.encabezado img {
-  width: 100%;
-  padding: 0;
-  height: 30px;
-  margin-bottom: 20px;
-}
-
-.logo,
-img {
-  height: 60px;
-  justify-content: center;
-  height: 60px;
-  display: flex;
-}
-
-ul,
-.principal-ul {
-  display: flex;
-  margin-left: 200px;
-  margin-right: 200px;
-  list-style: none;
-  font-family: "Lato", sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  line-height: 29px;
-}
-
-li,
-.principal-li {
-  border: none;
-  margin-left: 50px;
-}
-
-.principal-li a {
-  color: black;
-  text-decoration: none;
-  font-weight: bolder;
-}
-
-.divisor img {
-  position: absolute;
-  width: 100%;
-  padding: 0;
-  height: 30px;
-  margin-bottom: 20px;
-}
-
-.navegacion-ul {
-  font-size: 24px;
-  list-style: none;
-  margin: 0;
-
-  color: white;
-}
-
-.navegacion-li {
-  border: none;
-  position: relative;
-  padding-top: -90px;
-  margin-left: 24px;
-}
-
-.navegacion-li a {
-  color: white;
-  text-decoration: none;
-  font-weight: bolder;
-}
-
-.title {
-  margin: 20px;
-  font-family: "Lato", sans-serif;
-  font-weight: bolder;
-  text-align: center;
-  font-size: 24px;
-}
-
-.img-main img {
-  width: 100%;
-  height: auto;
 }
