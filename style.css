@@ -7,7 +7,27 @@
     border-radius: 3px;
 }
 
-.conteinerImages imagen{
-    width: 15px;
+/* .imagen{
+    width: 32%;
+    position: relative;
+    height: 200px;
+margin-bottom: 5px;
+} */
 
+img{
+    width: 100%;
+}
+
+.freqSites{
+    display: flex;
+    flex-direction: row;
+}
+.col3{
+    display: flex;
+    flex-direction: column;
+
+}
+.subcol{
+    display: flex;
+    flex-direction: row;
 }
