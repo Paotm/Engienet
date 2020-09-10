@@ -167,14 +167,45 @@ ul #main2 .uno {
   flex-direction: column;
 }
 
+/*styles foot*/
+
+.Container-foot {
+  display: flex;
+  background-color: #353a3d;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 709px;
+}
+
+p {
+  color: #fff;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  width: 220px;
+  height: 29px;
+}
+.link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
+.menu1,
+.menu2,
+.menu3,
+.menu4 {
+  display: flex;
+  flex-direction: column;
+}
+
 .line {
   display: flex;
   align-items: center;
-}
-.nav li ul {
-  display: none;
-  position: absolute;
-  min-width: 140px;
 }
 
 .follow {
@@ -182,6 +213,27 @@ ul #main2 .uno {
   flex-direction: column;
   justify-content: center;
   width: 200px;
+}
+
+.text-follow {
+  color: white;
+  background-color: transparent;
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.networks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav li ul {
+  display: none;
+  position: absolute;
+  min-width: 140px;
 }
 
 .text-follow {
