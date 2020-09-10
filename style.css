@@ -114,6 +114,18 @@ a:link {
   font-size: 14px;
 }
 
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+  cursor: auto;
+}
+
+a:link:active,
+a:visited:active {
+  color: orangered;
+}
+
 .menu1,
 .menu2,
 .menu3,
